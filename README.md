@@ -1,4 +1,4 @@
-# L..I.J.E
+# L.I.J.E
 Projektas
 Komandos nariai:
 Emilija
