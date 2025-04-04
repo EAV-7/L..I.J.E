@@ -77,12 +77,133 @@ position: relative
 .round-parent {
     position: absolute;
     top: 20px;
-    left: 957px;
+    left: 1154px;
     width: 153px;
     height: 48px;
     overflow: hidden;
 }
 a{
     text-decoration: none;
+}
+.home-group {
+    position: absolute;
+    height: 28%;
+    width: 19.18%;
+    top: 65%;
+    right: 80.82%;
+    bottom: 7%;
+    left: 0%;
+    overflow: hidden;
+    font-size: 18px;
+}
+.hillcrest-lane-i-parent {
+    position: absolute;
+    height: 100%;
+    width: 65.77%;
+    top: 0%;
+    right: 34.23%;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+.frame-child {
+    position: absolute;
+    height: 24%;
+    width: 9.37%;
+    top: 0%;
+    right: 0%;
+    bottom: 76%;
+    left: 90.63%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.copyright-2020-all {
+    position: absolute;
+    width: 22.97%;
+    top: calc(50% + 25px);
+    left: 77.03%;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: right;
+    display: inline-block;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+}
+.frame-container {
+    position: absolute;
+    top: 48px;
+    left: 165px;
+    width: 1110px;
+    height: 100px;
+    overflow: hidden;
+}
+.rectangle-copy-3-parent {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 1440px;
+    height: 196px;
+}
+.group-child1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 200px;
+    object-fit: cover;
+}
+.rectangle3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 24px;
+    border: 2px solid #012f34;
+    box-sizing: border-box;
+}
+.rectangle-group {
+    position: absolute;
+    height: 100%;
+    width: 16.68%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 83.32%;
+    overflow: hidden;
+}
+.ready-to-get {
+    position: absolute;
+    top: calc(50% - 24px);
+    left: 0%;
+    font-size: 48px;
+    line-height: 48px;
+}
+.frame-parent1 {
+    position: absolute;
+    top: 76px;
+    left: 263px;
+    width: 917px;
+    height: 48px;
+}
+.group-parent2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 200px;
+    font-size: 18px;
+    color: #012f34;
+}
+.group-parent1 {
+    position: absolute;
+    top: 2129px;
+    left: 0px;
+    width: 1440px;
+    height: 396px;
+    font-size: 15px;
 }
   
