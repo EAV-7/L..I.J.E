@@ -1,21 +1,589 @@
 body {
-
     background-color: #014E56;
 }
 
-h3 {
-    color: #FFF;
-    font-family: Livvic;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100px;
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 517px;
+    overflow: hidden;
+    object-fit: cover;
 }
-p {
-    color: #FFF;
-    font-family: Livvic;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
+.myteam-2-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 160px;
+    height: 40px;
+    object-fit: cover;
+}
+.home {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: 0%;
     line-height: 28px;
+    font-weight: 600;
 }
+.about {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: 63.57%;
+    line-height: 28px;
+    font-weight: 600;
+}
+.home-parent {
+    position: absolute;
+    top: 6px;
+    left: 240px;
+    width: 140px;
+    height: 28px;
+    overflow: hidden;
+}
+.myteam-2-parent {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    width: 380px;
+    height: 40px;
+}
+.rectangle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+.contact-us {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 20.92%;
+    line-height: 28px;
+    font-weight: 600;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 957px;
+    width: 153px;
+    height: 48px;
+    overflow: hidden;
+}
+.group-parent {
+    position: absolute;
+    top: 73px;
+    left: 165px;
+    width: 1110px;
+    height: 48px;
+}
+.about1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 100px;
+    display: inline-block;
+    width: 350px;
+}
+.we-help-companies {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 34px);
+    left: 0%;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+}
+.rectangle1 {
+    position: absolute;
+    height: 2.56%;
+    width: 6.85%;
+    top: 0%;
+    right: 93.15%;
+    bottom: 97.44%;
+    left: 0%;
+    background-color: #f67e7e;
+}
+.we-help-companies-bu-parent {
+    position: absolute;
+    top: 0px;
+    left: 380px;
+    width: 730px;
+    height: 156px;
+    overflow: hidden;
+    font-size: 18px;
+}
+.about-parent {
+    position: absolute;
+    top: 241px;
+    left: 165px;
+    width: 1110px;
+    height: 156px;
+    font-size: 64px;
+}
+.frame-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 517px;
+}
+.group-8-copy-group-8-mask {
+    position: absolute;
+    top: 517px;
+    left: 0px;
+    width: 1440px;
+    height: 1002px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.rectangle2 {
+    position: absolute;
+    height: 90.04%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 9.96%;
+    left: 0%;
+    background-color: #012f34;
+}
+.founder-ceo {
+    position: absolute;
+    width: 100%;
+    top: calc(50% + 1.5px);
+    left: 0%;
+    line-height: 25px;
+    display: inline-block;
+    font-weight: 500;
+}
+.nikita-marks {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 26.5px);
+    left: 0%;
+    font-size: 18px;
+    line-height: 28px;
+    display: inline-block;
+    color: #79c8c7;
+}
+.founder-ceo-parent {
+    position: absolute;
+    height: 32.12%;
+    width: 100%;
+    top: 67.88%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+.oval-icon {
+    position: absolute;
+    top: calc(50% - 82.5px);
+    left: calc(50% - 48px);
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+}
+.frame-container {
+    position: absolute;
+    height: calc(100% - 116px);
+    width: calc(100% - 48px);
+    top: 32px;
+    right: 24px;
+    bottom: 84px;
+    left: 24px;
+}
+.frame-child {
+    position: absolute;
+    top: calc(50% + 84.5px);
+    left: calc(50% - 28px);
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+}
+.rectangle-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 281px;
+    overflow: hidden;
+}
+.group-14-copy {
+    position: absolute;
+    top: 0px;
+    left: 380px;
+    width: 350px;
+    height: 281px;
+    overflow: hidden;
+}
+.group-14-copy-2 {
+    position: absolute;
+    top: 0px;
+    left: 760px;
+    width: 350px;
+    height: 281px;
+    overflow: hidden;
+}
+.group-14-copy-5 {
+    position: absolute;
+    top: 329px;
+    left: 0px;
+    width: 350px;
+    height: 281px;
+    overflow: hidden;
+}
+.group-14-copy-4 {
+    position: absolute;
+    top: 329px;
+    left: 380px;
+    width: 350px;
+    height: 281px;
+    overflow: hidden;
+}
+.rectangle7 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #012f34;
+}
+.frame-parent4 {
+    position: absolute;
+    height: calc(100% - 88px);
+    width: calc(100% - 48px);
+    top: 32px;
+    right: 24px;
+    bottom: 56px;
+    left: 24px;
+    overflow: hidden;
+}
+.rectangle-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+.group-14-copy-3 {
+    position: absolute;
+    height: 90.04%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 9.96%;
+    left: 0%;
+}
+.rectangle8 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #002529;
+}
+.empowered-teams-cre {
+    position: absolute;
+    width: 84.11%;
+    top: calc(50% - 41.5px);
+    left: 7.95%;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+}
+.aden-allan1 {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 77.5px);
+    left: 0%;
+    font-size: 18px;
+    line-height: 28px;
+    display: inline-block;
+    color: #79c8c7;
+}
+.linkedin-logo-icon {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% + 10px);
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.path-icon {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 30px);
+    width: 24px;
+    height: 19.5px;
+}
+.linkedin-logo-parent {
+    position: absolute;
+    top: calc(50% + 57.5px);
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 20px;
+}
+.empowered-teams-cre-parent {
+    position: absolute;
+    height: calc(100% - 98px);
+    width: calc(100% - 48px);
+    top: 35px;
+    right: 24px;
+    bottom: 63px;
+    left: 24px;
+    overflow: hidden;
+}
+.rectangle-parent1 {
+    position: absolute;
+    height: 90.04%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 9.96%;
+    left: 0%;
+    overflow: hidden;
+}
+.group-14-copy-3-parent {
+    position: absolute;
+    top: 329px;
+    left: 760px;
+    width: 350px;
+    height: 281px;
+    overflow: hidden;
+}
+.frame-group {
+    position: absolute;
+    top: 112px;
+    left: 0px;
+    width: 1110px;
+    height: 610px;
+}
+.meet-the-directors {
+    position: absolute;
+    top: 0px;
+    left: 95px;
+    font-size: 48px;
+    line-height: 48px;
+    display: inline-block;
+    width: 920px;
+}
+.group-container {
+    position: absolute;
+    top: 657px;
+    left: 165px;
+    width: 1110px;
+    height: 722px;
+    text-align: center;
+    font-size: 15px;
+}
+.group-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 437px;
+    object-fit: cover;
+}
+.some-of-our {
+    position: absolute;
+    top: 140px;
+    left: 260px;
+    line-height: 48px;
+    display: inline-block;
+    width: 920px;
+}
+.group-item {
+    position: absolute;
+    top: 252px;
+    left: 165px;
+    width: 1110px;
+    height: 45px;
+    object-fit: cover;
+}
+.group-group {
+    position: absolute;
+    top: 1519px;
+    left: 0px;
+    width: 1440px;
+    height: 437px;
+    text-align: center;
+    font-size: 48px;
+}
+.rectangle-copy-3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #002529;
+    width: 1440px;
+    height: 196px;
+}
+.hillcrest-lane {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.irvine-ca {
+    margin: 0;
+}
+.hillcrest-lane-i-container {
+    position: absolute;
+    width: 60.96%;
+    top: calc(50% - 50px);
+    left: 39.04%;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+}
+.myteam-2-icon1 {
+    position: absolute;
+    height: 40%;
+    width: 21.92%;
+    top: 0%;
+    right: 78.08%;
+    bottom: 60%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.home-group {
+    position: absolute;
+    height: 28%;
+    width: 19.18%;
+    top: 65%;
+    right: 80.82%;
+    bottom: 7%;
+    left: 0%;
+    overflow: hidden;
+    font-size: 18px;
+}
+.hillcrest-lane-i-parent {
+    position: absolute;
+    height: 100%;
+    width: 65.77%;
+    top: 0%;
+    right: 34.23%;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+.frame-inner {
+    position: absolute;
+    height: 24%;
+    width: 9.37%;
+    top: 0%;
+    right: 0%;
+    bottom: 76%;
+    left: 90.63%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.copyright-2020-all {
+    position: absolute;
+    width: 22.97%;
+    top: calc(50% + 25px);
+    left: 77.03%;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: right;
+    display: inline-block;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+}
+.frame-parent5 {
+    position: absolute;
+    top: 48px;
+    left: 165px;
+    width: 1110px;
+    height: 100px;
+    overflow: hidden;
+}
+.rectangle-copy-3-parent {
+    position: absolute;
+    top: 2156px;
+    left: 0px;
+    width: 1440px;
+    height: 196px;
+    font-size: 15px;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 200px;
+    object-fit: cover;
+}
+.rectangle9 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 24px;
+    border: 2px solid #012f34;
+    box-sizing: border-box;
+}
+.rectangle-parent2 {
+    position: absolute;
+    height: 100%;
+    width: 16.68%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 83.32%;
+    overflow: hidden;
+}
+.ready-to-get {
+    position: absolute;
+    top: calc(50% - 24px);
+    left: 0%;
+    font-size: 48px;
+    line-height: 48px;
+}
+.frame-parent6 {
+    position: absolute;
+    top: 76px;
+    left: 263px;
+    width: 917px;
+    height: 48px;
+}
+.group-parent1 {
+    position: absolute;
+    top: 1956px;
+    left: 0px;
+    width: 1440px;
+    height: 200px;
+    color: #012f34;
+}
+.about-desktop {
+    width: 100%;
+    position: relative;
+    background-color: #014E56;
+    height: 2352px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Livvic;
+}
+
