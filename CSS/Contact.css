@@ -1,0 +1,435 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+.mask {
+    background-color: #014e56;
+    height: 789px;
+    width: 100%;
+}
+.contact-desktop-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1444px;
+    height: 225px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.the-quality-of {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 14px);
+    left: 0%;
+    line-height: 28px;
+    display: inline-block;
+}
+.the-quality-of-our-t-wrapper {
+    position: absolute;
+    top: 22px;
+    left: 95px;
+    width: 445px;
+    height: 28px;
+    overflow: hidden;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+}
+.frame-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 540px;
+    height: 72px;
+}
+.group-10-copy-parent {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 540px;
+    height: 72px;
+}
+.group-10-copy-2-parent {
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 540px;
+    height: 72px;
+}
+.group-div {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 540px;
+    height: 232px;
+}
+.ask-us-about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 32px;
+    line-height: 48px;
+    display: inline-block;
+    color: #f67e7e;
+    width: 540px;
+}
+.group-container {
+    position: absolute;
+    top: 116px;
+    left: 0px;
+    width: 540px;
+    height: 312px;
+}
+.contact {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 64px;
+    line-height: 100px;
+    display: inline-block;
+    width: 350px;
+}
+.rectangle {
+    position: absolute;
+    height: 2.38%;
+    width: 100%;
+    top: 97.62%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #fff;
+}
+.name {
+    position: absolute;
+    width: 82.41%;
+    top: calc(50% - 21px);
+    left: 2.59%;
+    letter-spacing: -0.12px;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 540px;
+    height: 42px;
+    overflow: hidden;
+}
+.group-4-copy {
+    position: absolute;
+    top: 66px;
+    left: 0px;
+    width: 540px;
+    height: 42px;
+    overflow: hidden;
+}
+.group-4-copy-3 {
+    position: absolute;
+    top: 132px;
+    left: 0px;
+    width: 540px;
+    height: 42px;
+    overflow: hidden;
+}
+.group-4-copy-2 {
+    position: absolute;
+    top: 198px;
+    left: 0px;
+    width: 540px;
+    height: 42px;
+    overflow: hidden;
+}
+.message {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 12.5px);
+    left: 0%;
+    letter-spacing: -0.12px;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+}
+.group-4-copy-6 {
+    position: absolute;
+    top: 0px;
+    left: 14px;
+    width: 445px;
+    height: 25px;
+    overflow: hidden;
+}
+.rectangle4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 540px;
+    height: 1px;
+}
+.group-4-copy-7 {
+    position: absolute;
+    top: 83px;
+    left: 0px;
+    width: 540px;
+    height: 1px;
+}
+.group-4-copy-6-parent {
+    position: absolute;
+    top: 264px;
+    left: 0px;
+    width: 540px;
+    height: 84px;
+}
+.frame-group {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    width: 540px;
+    height: 348px;
+}
+.rectangle5 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 24px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+.submit {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 26.02%;
+    line-height: 28px;
+    font-weight: 600;
+}
+.group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 123px;
+    height: 48px;
+    overflow: hidden;
+}
+.group-wrapper {
+    position: absolute;
+    top: 372px;
+    left: 0px;
+    width: 123px;
+    height: 48px;
+    font-size: 18px;
+    color: #004047;
+}
+.group-parent1 {
+    position: absolute;
+    top: 0px;
+    left: 570px;
+    width: 542px;
+    height: 420px;
+    font-size: 15px;
+}
+.group-parent {
+    position: absolute;
+    top: 241px;
+    left: 165px;
+    width: 1112px;
+    height: 428px;
+}
+.myteam-2-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 160px;
+    height: 40px;
+    object-fit: cover;
+}
+.home {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: 0%;
+    line-height: 28px;
+    font-weight: 600;
+}
+.about {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: 63.57%;
+    line-height: 28px;
+    font-weight: 600;
+}
+.home-parent {
+    position: absolute;
+    top: 6px;
+    left: 240px;
+    width: 140px;
+    height: 28px;
+    overflow: hidden;
+}
+.myteam-2-parent {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    width: 380px;
+    height: 40px;
+}
+.rectangle6 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+.contact-us {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 20.92%;
+    line-height: 28px;
+    font-weight: 600;
+}
+.rectangle-group {
+    position: absolute;
+    top: 0px;
+    left: 957px;
+    width: 153px;
+    height: 48px;
+    overflow: hidden;
+}
+.group-parent2 {
+    position: absolute;
+    top: 73px;
+    left: 165px;
+    width: 1110px;
+    height: 48px;
+}
+.rectangle-copy-3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #002529;
+    width: 1440px;
+    height: 196px;
+}
+.hillcrest-lane {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.irvine-ca {
+    margin: 0;
+}
+.hillcrest-lane-i-container {
+    position: absolute;
+    width: 60.96%;
+    top: calc(50% - 50px);
+    left: 39.04%;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+}
+.myteam-2-icon1 {
+    position: absolute;
+    height: 40%;
+    width: 21.92%;
+    top: 0%;
+    right: 78.08%;
+    bottom: 60%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.home-group {
+    position: absolute;
+    height: 28%;
+    width: 19.18%;
+    top: 65%;
+    right: 80.82%;
+    bottom: 7%;
+    left: 0%;
+    overflow: hidden;
+    font-size: 18px;
+}
+.hillcrest-lane-i-parent {
+    position: absolute;
+    height: 100%;
+    width: 65.77%;
+    top: 0%;
+    right: 34.23%;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+.frame-child {
+    position: absolute;
+    height: 24%;
+    width: 9.37%;
+    top: 0%;
+    right: 0%;
+    bottom: 76%;
+    left: 90.63%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.copyright-2020-all {
+    position: absolute;
+    width: 22.97%;
+    top: calc(50% + 25px);
+    left: 77.03%;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: right;
+    display: inline-block;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+}
+.frame-container {
+    position: absolute;
+    top: 48px;
+    left: 165px;
+    width: 1110px;
+    height: 100px;
+    overflow: hidden;
+}
+.rectangle-copy-3-parent {
+    position: absolute;
+    top: 789px;
+    left: 0px;
+    width: 1440px;
+    height: 196px;
+    font-size: 15px;
+}
+.contact-desktop {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 985px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Livvic;
+}
+
