@@ -1,7 +1,84 @@
-body{
-    background-color: #014E56;
+.home-desktop-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 700px;
+    overflow: hidden;
+    object-fit: cover;
 }
-
+.find-the {
+    margin: 0;
+}
+.talent {
+    color: #f67e7e;
+}
+.find-the-best-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 100px;
+    display: inline-block;
+    width: 635px;
+}
+.finding-the-right {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 14.5px);
+    left: 0%;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+}
+.rectangle {
+    position: absolute;
+    height: 2.05%;
+    width: 11.24%;
+    top: 0%;
+    right: 88.76%;
+    bottom: 97.95%;
+    left: 0%;
+    background-color: #79c8c7;
+}
+.group {
+    position: absolute;
+    top: 0px;
+    left: 665px;
+    width: 445px;
+    height: 195px;
+    overflow: hidden;
+    font-size: 18px;
+}
+.find-the-best-talent-parent {
+    position: absolute;
+    top: 250px;
+    left: 165px;
+    width: 1110px;
+    height: 200px;
+    font-size: 100px;
+}
+.myteam-2-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 160px;
+    height: 40px;
+    object-fit: cover;
+}
+.home {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: 0%;
+    line-height: 28px;
+    font-weight: 600;
+}
+.about {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: 63.57%;
+    line-height: 28px;
+    font-weight: 600;
+}
 .home-parent {
     position: absolute;
     top: 6px;
@@ -10,59 +87,14 @@ body{
     height: 28px;
     overflow: hidden;
 }
-.home {
-position: absolute;
-top: calc(50% - 14px);
-left: 0%;
-line-height: 28px;
-font-weight: 600;
-color: #FFF;
-font-family: Livvic;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px; 
+.myteam-2-parent {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    width: 380px;
+    height: 40px;
 }
-.about {
-position: absolute;
-top: calc(50% - 14px);
-left: 63.57%;
-line-height: 28px;
-font-weight: 600;
-color: #FFF;
-font-family: Livvic;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px; 
-}
-.contact{
-position: absolute;
-top: calc(50% - 15px);
-left: 20.92%;
-line-height: 28px;
-font-weight: 600;
-color: #FFF;
-font-family: Livvic;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px;
-}
-.myteam{
-width: 100%;
-height: 100%;
-position: relative
-}
-.myteam-1{
-    width: 140px; 
-    height: 28px; 
-    left: 240px; 
-    top: 20px; 
-    position: absolute; 
-    overflow: hidden"
-}
-.round1 {
+.rectangle1 {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -74,16 +106,380 @@ position: relative
     border: 2px solid #fff;
     box-sizing: border-box;
 }
-.round-parent {
+.contact-us {
     position: absolute;
-    top: 20px;
-    left: 1154px;
+    top: calc(50% - 15px);
+    left: 20.92%;
+    line-height: 28px;
+    font-weight: 600;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 957px;
     width: 153px;
     height: 48px;
     overflow: hidden;
 }
-a{
-    text-decoration: none;
+.group-parent {
+    position: absolute;
+    top: 73px;
+    left: 165px;
+    width: 1110px;
+    height: 48px;
+    font-size: 18px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 684px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.build-manage {
+    position: absolute;
+    top: 58px;
+    left: 0px;
+    line-height: 48px;
+    display: inline-block;
+    width: 445px;
+}
+.rectangle2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #f67e7e;
+    width: 50px;
+    height: 4px;
+}
+.build-manage-distr-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 445px;
+    height: 202px;
+}
+.our-network-is {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 3px);
+    left: 0%;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    opacity: 0.8;
+    mix-blend-mode: normal;
+}
+.experienced-individu {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 47px);
+    left: 0%;
+    font-size: 18px;
+    line-height: 28px;
+    display: inline-block;
+    color: #f67e7e;
+}
+.our-network-is-made-parent {
+    position: absolute;
+    top: 0px;
+    left: 95px;
+    width: 445px;
+    height: 94px;
+    overflow: hidden;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+}
+.frame-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 540px;
+    height: 94px;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+}
+.group-10-copy-parent {
+    position: absolute;
+    top: 126px;
+    left: 0px;
+    width: 540px;
+    height: 94px;
+}
+.group-10-copy-2-parent {
+    position: absolute;
+    top: 252px;
+    left: 0px;
+    width: 540px;
+    height: 94px;
+}
+.group-div {
+    position: absolute;
+    top: 58px;
+    left: 570px;
+    width: 540px;
+    height: 346px;
+    font-size: 15px;
+}
+.group-container {
+    position: absolute;
+    top: 140px;
+    left: 165px;
+    width: 1110px;
+    height: 404px;
+}
+.frame-parent {
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    width: 1440px;
+    height: 684px;
+}
+.home-desktop-item {
+    position: absolute;
+    top: 1384px;
+    left: 0px;
+    width: 1440px;
+    height: 745px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.success-stories {
+    color: #79c8c7;
+}
+.delivering-real-resu-container {
+    position: absolute;
+    top: 0px;
+    left: 89px;
+    line-height: 48px;
+    display: inline-block;
+    width: 932px;
+}
+.icon {
+    position: absolute;
+    height: 17.89%;
+    width: 6.04%;
+    top: 0%;
+    right: 81.17%;
+    bottom: 82.11%;
+    left: 12.79%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.the-team-perfectly {
+    position: absolute;
+    width: 31.53%;
+    top: calc(50% - 120.5px);
+    left: 0%;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+}
+.product-manager-at {
+    position: absolute;
+    width: 100%;
+    top: calc(50% + 6px);
+    left: 0%;
+    line-height: 18px;
+    display: inline-block;
+    font-weight: 500;
+}
+.kady-baker {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 24px);
+    left: 0%;
+    font-size: 18px;
+    line-height: 28px;
+    display: inline-block;
+    color: #79c8c7;
+}
+.product-manager-at-b-parent {
+    position: absolute;
+    height: 15.34%;
+    width: 31.53%;
+    top: 51.12%;
+    right: 68.47%;
+    bottom: 33.55%;
+    left: 0%;
+    overflow: hidden;
+    font-size: 13px;
+}
+.founder-of-manage-parent {
+    position: absolute;
+    height: 15.34%;
+    width: 31.53%;
+    top: 51.12%;
+    right: 34.23%;
+    bottom: 33.55%;
+    left: 34.23%;
+    overflow: hidden;
+    font-size: 13px;
+}
+.group-22 {
+    position: absolute;
+    height: 15.34%;
+    width: 31.53%;
+    top: 51.12%;
+    right: 0%;
+    bottom: 33.55%;
+    left: 68.47%;
+    overflow: hidden;
+    font-size: 13px;
+}
+.oval-icon {
+    position: absolute;
+    height: 19.81%;
+    width: 5.59%;
+    top: 76.68%;
+    right: 81.44%;
+    bottom: 3.51%;
+    left: 12.97%;
+    border-radius: 50%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.icon1 {
+    position: absolute;
+    height: 17.89%;
+    width: 6.04%;
+    top: 0%;
+    right: 46.94%;
+    bottom: 82.11%;
+    left: 47.03%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.we-needed-to {
+    position: absolute;
+    width: 31.53%;
+    top: calc(50% - 120.5px);
+    left: 34.23%;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+}
+.oval-copy-5 {
+    position: absolute;
+    height: 19.81%;
+    width: 5.59%;
+    top: 76.68%;
+    right: 47.21%;
+    bottom: 3.51%;
+    left: 47.21%;
+    border-radius: 50%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.icon2 {
+    position: absolute;
+    height: 17.89%;
+    width: 6.04%;
+    top: 0%;
+    right: 12.7%;
+    bottom: 82.11%;
+    left: 81.26%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.amazing-our-team {
+    position: absolute;
+    width: 31.53%;
+    top: calc(50% - 120.5px);
+    left: 68.47%;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+}
+.oval-copy-6 {
+    position: absolute;
+    height: 19.81%;
+    width: 5.59%;
+    top: 80.19%;
+    right: 12.97%;
+    bottom: 0%;
+    left: 81.44%;
+    border-radius: 50%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.parent {
+    position: absolute;
+    top: 152px;
+    left: 0px;
+    width: 1110px;
+    height: 313px;
+    font-size: 15px;
+}
+.delivering-real-resu-parent {
+    position: absolute;
+    top: 1524px;
+    left: 165px;
+    width: 1110px;
+    height: 465px;
+    text-align: center;
+}
+.rectangle-copy-3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #002529;
+    width: 1440px;
+    height: 196px;
+}
+.hillcrest-lane {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.hillcrest-lane-i-container {
+    position: absolute;
+    width: 60.96%;
+    top: calc(50% - 50px);
+    left: 39.04%;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+}
+.myteam-2-icon1 {
+    position: absolute;
+    height: 40%;
+    width: 21.92%;
+    top: 0%;
+    right: 78.08%;
+    bottom: 60%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
 }
 .home-group {
     position: absolute;
@@ -206,4 +602,15 @@ a{
     height: 396px;
     font-size: 15px;
 }
-  
+.home-desktop {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 2525px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 48px;
+    color: #fff;
+    font-family: Livvic;
+}
+
