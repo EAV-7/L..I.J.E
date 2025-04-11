@@ -1,91 +1,731 @@
-.footer {
-    font-family: 'Livvic', sans-serif;
-    background-color: #002529;
-    color: #ffffff;
-   }
-   .footer-top {
-    background-color: #f67e7e;
-    text-align: center;
-    padding: 60px 20px;
-   }
-   .cta-heading {
-    font-size: 48px;
-    color: #012f34;
-    margin-bottom: 20px;
-   }
-   .cta-button {
-    padding: 12px 28px;
-    border: 2px solid #012f34;
-    border-radius: 24px;
-    color: #012f34;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-   }
-   .footer-bottom {
-    padding: 40px 20px;
-    background-color: #002529;
-   }
-   .footer-content {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-   }
-   .footer-column,
-   .footer-address {
-    flex: 1;
-    min-width: 220px;
-   }
-   .footer-logo {
-    margin-bottom: 20px;
-   }
-   .footer-nav a {
-    display: inline-block;
-    margin-right: 16px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
-   }
-   .footer-address {
-    font-size: 15px;
-    line-height: 24px;
-    opacity: 0.6;
-   }
-   .footer-copy {
-    text-align: right;
-    font-size: 14px;
-    margin-top: 30px;
-    opacity: 0.6;
-   }
-   
-   @media (max-width: 768px) {
-    .cta-heading {
-      font-size: 36px;
-    }
-    .footer-content {
+body {
+  background-color: #014E56;
+}
+/*Nuotraukos design */
+.group5 {
+  position: absolute;
+  top: 250px; /* keisk šias reikšmes */
+  left: 0px; /* kad pastumtum nuotrauką */
+  width: 100px; /* arba naudok originalų dydį */
+  height: auto;
+}
+.group8 {
+  position: absolute;
+  bottom: 0px; /* keisk šias reikšmes */
+  right: 0px; /* kad pastumtum nuotrauką */
+  width: 100px; /* arba naudok originalų dydį */
+  height: auto;
+}
+.group8C {
+  position: absolute;
+  bottom: 1075px; /* keisk šias reikšmes */
+  left: 0px; /* kad pastumtum nuotrauką */
+  width: 100px; /* arba naudok originalų dydį */
+  height: auto;
+}
+.group8C2 {
+  position: absolute;
+  bottom: -140px; /* keisk šias reikšmes */
+  right: -165px; /* kad pastumtum nuotrauką */
+  width: 200px; /* arba naudok originalų dydį */
+  height: auto;
+}
+.r2S {
+  position: absolute;
+  top: 57px; /* keisk šias reikšmes */
+  left: 0px; /* kad pastumtum nuotrauką */
+  width: 200px; /* arba naudok originalų dydį */
+  height: auto;
+}
+.find-the {
+  margin: 0;
+}
+.talent {
+  color: #f67e7e;
+}
+.find-the-best-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 100px;
+  display: inline-block;
+  width: 635px;
+}
+.finding-the-right {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 14.5px);
+  left: 0%;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+}
+.rectangle {
+  position: absolute;
+  height: 2.05%;
+  width: 11.24%;
+  top: 0%;
+  right: 88.76%;
+  bottom: 97.95%;
+  left: 0%;
+  background-color: #79c8c7;
+}
+.group {
+  position: absolute;
+  top: 0px;
+  left: 665px;
+  width: 445px;
+  height: 195px;
+  overflow: hidden;
+  font-size: 18px;
+}
+.find-the-best-talent-parent {
+  position: absolute;
+  top: 250px;
+  left: 165px;
+  width: 1110px;
+  height: 200px;
+  font-size: 100px;
+}
+.myteam-2-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 160px;
+  height: 40px;
+  object-fit: cover;
+}
+/*button vieta */
+.home-parent {
+  position: absolute;
+  top: 6px;
+  left: 240px;
+  width: 140px;
+  height: 28px;
+  overflow: hidden;
+}
+.myteam-2-parent {
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  width: 380px;
+  height: 40px;
+}
+.rectangle1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: 24px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+/*test*/
+.contact-us-btn {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+}
+.contact-us-btn:hover .rectangle3 {
+  background-color: #012f34;
+}
+
+.contact-us-btn:hover .contact-us {
+  color: white;
+}
+
+.rectangle3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  border-radius: 24px;
+  border: 2px solid #012f34;
+  box-sizing: border-box;
+  background-color: #F67E7E;
+  z-index: 1;
+}
+
+.contact-us {
+  position: relative;
+  z-index: 2;
+  font-weight: 600;
+  line-height: 28px;
+  color: #012f34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.rectangle-parent {
+  position: absolute;
+  top: 0px;
+  left: 957px;
+  width: 153px;
+  height: 48px;
+  overflow: hidden;
+}
+.group-parent {
+  position: absolute;
+  top: 73px;
+  left: 165px;
+  width: 1110px;
+  height: 48px;
+  font-size: 18px;
+}
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 684px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.build-manage {
+  position: absolute;
+  top: 58px;
+  left: 0px;
+  line-height: 48px;
+  display: inline-block;
+  width: 445px;
+}
+.rectangle2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #f67e7e;
+  width: 50px;
+  height: 4px;
+}
+.build-manage-distr-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 445px;
+  height: 202px;
+}
+.our-network-is {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 3px);
+  left: 0%;
+  line-height: 25px;
+  font-weight: 600;
+  display: inline-block;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.experienced-individu {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 47px);
+  left: 0%;
+  font-size: 18px;
+  line-height: 28px;
+  display: inline-block;
+  color: #f67e7e;
+}
+.our-network-is-made-parent {
+  position: absolute;
+  top: 0px;
+  left: 95px;
+  width: 445px;
+  height: 94px;
+  overflow: hidden;
+}
+.group-item {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+.frame-group {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 540px;
+  height: 94px;
+}
+.group-inner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+.group-10-copy-parent {
+  position: absolute;
+  top: 126px;
+  left: 0px;
+  width: 540px;
+  height: 94px;
+}
+.group-10-copy-2-parent {
+  position: absolute;
+  top: 252px;
+  left: 0px;
+  width: 540px;
+  height: 94px;
+}
+.group-div {
+  position: absolute;
+  top: 58px;
+  left: 570px;
+  width: 540px;
+  height: 346px;
+  font-size: 15px;
+}
+.group-container {
+  position: absolute;
+  top: 140px;
+  left: 165px;
+  width: 1110px;
+  height: 404px;
+  background-color: #012F34;
+}
+.frame-parent {
+  position: absolute;
+  top: 700px;
+  left: 0px;
+  width: 1440px;
+  height: 684px;
+  background-color: #012F34;
+}
+.home-desktop-item {
+  position: absolute;
+  top: 1384px;
+  left: 0px;
+  width: 1440px;
+  height: 745px;
+  overflow: hidden;
+  object-fit: cover;
+  
+}
+.success-stories {
+  color: #79c8c7;
+}
+.delivering-real-resu-container {
+  position: absolute;
+  top: 0px;
+  left: 89px;
+  line-height: 48px;
+  display: inline-block;
+  width: 932px;
+}
+.icon {
+  position: absolute;
+  height: 17.89%;
+  width: 6.04%;
+  top: 0%;
+  right: 81.17%;
+  bottom: 82.11%;
+  left: 12.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.the-team-perfectly {
+  position: absolute;
+  width: 31.53%;
+  top: calc(50% - 120.5px);
+  left: 0%;
+  line-height: 25px;
+  font-weight: 600;
+  display: inline-block;
+}
+.product-manager-at {
+  position: absolute;
+  width: 100%;
+  top: calc(50% + 6px);
+  left: 0%;
+  line-height: 18px;
+  display: inline-block;
+  font-weight: 500;
+}
+.kady-baker {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 24px);
+  left: 0%;
+  font-size: 18px;
+  line-height: 28px;
+  display: inline-block;
+  color: #79c8c7;
+}
+.product-manager-at-b-parent {
+  position: absolute;
+  height: 15.34%;
+  width: 31.53%;
+  top: 51.12%;
+  right: 68.47%;
+  bottom: 33.55%;
+  left: 0%;
+  overflow: hidden;
+  font-size: 13px;
+}
+.founder-of-manage-parent {
+  position: absolute;
+  height: 15.34%;
+  width: 31.53%;
+  top: 51.12%;
+  right: 34.23%;
+  bottom: 33.55%;
+  left: 34.23%;
+  overflow: hidden;
+  font-size: 13px;
+}
+.group-22 {
+  position: absolute;
+  height: 15.34%;
+  width: 31.53%;
+  top: 51.12%;
+  right: 0%;
+  bottom: 33.55%;
+  left: 68.47%;
+  overflow: hidden;
+  font-size: 13px;
+}
+.oval-icon {
+  position: absolute;
+  height: 19.81%;
+  width: 5.59%;
+  top: 76.68%;
+  right: 81.44%;
+  bottom: 3.51%;
+  left: 12.97%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icon1 {
+  position: absolute;
+  height: 17.89%;
+  width: 6.04%;
+  top: 0%;
+  right: 46.94%;
+  bottom: 82.11%;
+  left: 47.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.we-needed-to {
+  position: absolute;
+  width: 31.53%;
+  top: calc(50% - 120.5px);
+  left: 34.23%;
+  line-height: 25px;
+  font-weight: 600;
+  display: inline-block;
+}
+.oval-copy-5 {
+  position: absolute;
+  height: 19.81%;
+  width: 5.59%;
+  top: 76.68%;
+  right: 47.21%;
+  bottom: 3.51%;
+  left: 47.21%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icon2 {
+  position: absolute;
+  height: 17.89%;
+  width: 6.04%;
+  top: 0%;
+  right: 12.7%;
+  bottom: 82.11%;
+  left: 81.26%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.amazing-our-team {
+  position: absolute;
+  width: 31.53%;
+  top: calc(50% - 120.5px);
+  left: 68.47%;
+  line-height: 25px;
+  font-weight: 600;
+  display: inline-block;
+}
+.oval-copy-6 {
+  position: absolute;
+  height: 19.81%;
+  width: 5.59%;
+  top: 80.19%;
+  right: 12.97%;
+  bottom: 0%;
+  left: 81.44%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.parent {
+  position: absolute;
+  top: 152px;
+  left: 0px;
+  width: 1110px;
+  height: 313px;
+  font-size: 15px;
+}
+.delivering-real-resu-parent {
+  position: absolute;
+  top: 1524px;
+  left: 165px;
+  width: 1110px;
+  height: 465px;
+  text-align: center;
+}
+.rectangle-copy-3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #002529;
+  width: 1440px;
+  height: 196px;
+}
+.hillcrest-lane {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.hillcrest-lane-i-container {
+  position: absolute;
+  width: 60.96%;
+  top: calc(50% - 50px);
+  left: 39.04%;
+  line-height: 25px;
+  font-weight: 600;
+  display: inline-block;
+  opacity: 0.6;
+  mix-blend-mode: normal;
+}
+.myteam-2-icon1 {
+  position: absolute;
+  height: 40%;
+  width: 21.92%;
+  top: 0%;
+  right: 78.08%;
+  bottom: 60%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.home-group {
+  position: absolute;
+  height: 28%;
+  width: 19.18%;
+  top: 65%;
+  right: 80.82%;
+  bottom: 7%;
+  left: 0%;
+  overflow: hidden;
+  font-size: 18px;
+}
+.hillcrest-lane-i-parent {
+  position: absolute;
+  height: 100%;
+  width: 65.77%;
+  top: 0%;
+  right: 34.23%;
+  bottom: 0%;
+  left: 0%;
+  overflow: hidden;
+}
+.frame-child {
+  position: absolute;
+  height: 24%;
+  width: 9.37%;
+  top: 0%;
+  right: 0%;
+  bottom: 76%;
+  left: 90.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.copyright-2020-all {
+  position: absolute;
+  width: 22.97%;
+  top: calc(50% + 25px);
+  left: 77.03%;
+  line-height: 25px;
+  font-weight: 600;
+  text-align: right;
+  display: inline-block;
+  opacity: 0.6;
+  mix-blend-mode: normal;
+}
+.frame-container {
+  position: absolute;
+  top: 48px;
+  left: 165px;
+  width: 1110px;
+  height: 100px;
+  overflow: hidden;
+}
+.rectangle-copy-3-parent {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  width: 1440px;
+  height: 196px;
+}
+.group-child1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 200px;
+  object-fit: cover;
+}
+/*rec3*/
+.rectangle-group {
+  position: absolute;
+  height: 100%;
+  width: 16.68%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 83.32%;
+  overflow: hidden;
+}
+.ready-to-get {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: 0%;
+  font-size: 48px;
+  line-height: 48px;
+}
+.frame-parent1 {
+  position: absolute;
+  top: 76px;
+  left: 263px;
+  width: 917px;
+  height: 48px;
+}
+.group-parent2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 200px;
+  font-size: 18px;
+  color: #012f34;
+  background-color: #F67E7E;
+}
+.group-parent1 {
+  position: absolute;
+  top: 2129px;
+  left: 0px;
+  width: 1440px;
+  height: 396px;
+  font-size: 15px;
+}
+.home-desktop {
+  width: 100%;
+  position: relative;
+  background-color: #014E56;
+  height: 2525px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: Livvic;
+}
+
+
+
+
+
+/* test */
+.button-class2 {
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 63.57%;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.button-class {
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 0%;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .find-the-best-talent-parent {
+      left: 50px;
+      width: 90%;
+      font-size: 60px;
+  }
+
+  .group {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      font-size: 16px;
+  }
+
+  .group-parent {
       flex-direction: column;
       align-items: center;
-      text-align: center;
-    }
-    .footer-copy {
-      text-align: center;
-    }
-   }
+  }
 
-   @media (max-width: 480px) {
-    .cta-heading {
-      font-size: 28px;
-    }
-    .cta-button {
-      font-size: 16px;
-      padding: 10px 20px;
-    }
-    .footer-nav a {
-      display: block;
-      margin: 8px 0;
-    }
-   }
+  .home-parent, .rectangle-parent {
+      position: static;
+      margin-top: 10px;
+  }
+
+  .frame-parent {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .group-container {
+      width: 90%;
+      left: 5%;
+      top: auto;
+      margin-top: 40px;
+  }
+
+  .group-div {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      top: auto;
+      left: auto;
+  }
+}
