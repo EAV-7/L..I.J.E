@@ -1,5 +1,5 @@
 body {
-  font-family: 'Livvic', sans-serif;
+  font-family: 'Livvic';
   margin: 0;
   background-color: #014E56;
   color: white;
@@ -33,11 +33,23 @@ header {
   height: 24px;
 }
 
-.main-nav a {
-  margin-left: 40px;
-  font-weight: 600;
-  color: white;
+.main-nav ul {
+ position: relative;
+ list-style: none;
+ display: flex;
+ right: 200px;
+ top: 5px;
+ gap: 40px;
 }
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+ }
 
 .btn-outline {
   border: 2px solid white;
@@ -184,7 +196,6 @@ footer cite {
   background-color: #F67E7E;
   color: #012F34;
   padding: 76px 0;
-  text-align: center;
 }
 
 .cta h2 {
