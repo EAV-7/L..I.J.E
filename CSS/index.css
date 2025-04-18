@@ -132,8 +132,11 @@ header {
 }
 
 .feature-grid {
-  display: flex;
+  display: grid;
   gap: 10px;
+  text-align: left;
+  margin-left: 830px;
+
 }
 
 .feature-item {
