@@ -25,6 +25,15 @@ a {
   gap: 260px;
 }
 
+.container3 {
+  max-width: 1110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
 /* HEADER */
 header {
   padding: 64px 0 80px;
@@ -160,8 +169,11 @@ header {
 /* TESTIMONIALS */
 .testimonials {
   background-color: #004047;
-  padding: 140px 0;
+  height: 745px;
+  display: block;
   text-align: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .testimonials h2 {
@@ -208,7 +220,7 @@ cite {
 .cta {
   background-color: #F67E7E;
   color: #012F34;
-  padding: 76px 0;
+  height: 200px;
   display: flex;
 
 }
