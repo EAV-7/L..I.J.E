@@ -17,6 +17,13 @@ a {
   margin: 0 auto;
   padding: 0 24px;
 }
+.container2 {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 3px 24px;
+  display: flex;
+  gap: 260px;
+}
 
 /* HEADER */
 header {
@@ -202,25 +209,28 @@ cite {
   background-color: #F67E7E;
   color: #012F34;
   padding: 76px 0;
+  display: flex;
+
 }
 
 .cta h2 {
   font-size: 48px;
-  margin-bottom: 24px;
+  margin-top: 70px;
 }
 
-.cta .btn-filled {
-  padding: 11px 33px;
+.btn-filled {
+  padding: 5px 33px;
   background-color: transparent;
   border: 2px solid #012F34;
-  border-radius: 24px;
-  font-weight: 600;
+  border-radius: 28px;
+  width: 133px;
+  height: 48px;
   color: #012F34;
-  position: absolute;
-  right: 20%;
+  text-align: center;
+  line-height: 45px;
+  margin-top: 76px;
 }
-
-.cta .btn-filled:hover {
+.btn-filled:hover {
   background-color: #012F34;
   color: white;
 }
@@ -262,4 +272,9 @@ footer {
   line-height: 25px;
   color: #fff;
   opacity: 0.6;
+}
+/* NAV */
+.nav1{
+  display: flex;
+  gap: 40px;
 }
