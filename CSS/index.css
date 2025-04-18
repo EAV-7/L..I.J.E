@@ -157,8 +157,10 @@ header {
 .testimonials h2 {
   font-size: 48px;
   line-height: 56px;
-  width: 65%;
-  margin-bottom: 80px;
+  width: 85%;
+  margin-bottom: 90px;
+  text-align: center;
+
 }
 
 .testimonials .highlight {
@@ -187,7 +189,7 @@ blockquote p {
   font-style: italic;
 }
 
-footer cite {
+cite {
   font-style: normal;
   color: #79C8C7;
 }
