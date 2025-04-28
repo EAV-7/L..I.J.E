@@ -98,6 +98,21 @@ body {
     line-height: 28px;
     font-weight: 600;
   }
+
+
+/* CLIENTS */
+.clients {
+    background-color: #012F34;
+    padding: 140px 0;
+    position: relative;
+}
+
+.clients h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 48px;  
+}
+
   /* CTA */
 .cta {
     background-color: #F67E7E;
