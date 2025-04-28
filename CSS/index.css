@@ -102,8 +102,28 @@ header {
 /* HERO */
 .hero {
   background-color: #014E56;
-  padding-bottom: 150px;
+  padding: 120px 0 150px;
   position: relative;
+}
+
+.containerHero {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1 1 50%;
+  max-width: 600px;
+}
+
+.hero-text {
+  flex: 1 1 40%;
+  max-width: 500px;
 }
 
 .hero h1 {
@@ -117,14 +137,12 @@ header {
   color: #F67E7E;
 }
 
-.hero-content {
-  width: 60%;
-}
-
 .hero p {
-  margin-top: 24px;
-  font-weight: 500;
-  width: 80%;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
 }
 
 .hero-decor {
@@ -132,38 +150,72 @@ header {
   left: 0;
   top: 0;
   max-width: 350px;
+  height: auto;
 }
+
 
 /* FEATURES */
 .features {
   background-color: #012F34;
   padding: 140px 0;
+  position: relative;
+}
+
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .features h2 {
-  width: 50%;
+  width: 445px;
   font-size: 48px;
-  margin-bottom: 64px;
   line-height: 56px;
+  margin: 0;
+  position: relative;
+}
+
+/* Raudonas brūkšnelis virš h2 */
+.features h2::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #F67E7E;
+  margin-bottom: 32px;
 }
 
 .feature-grid {
-  display: grid;
-  gap: 10px;
-  text-align: left;
-  margin-left: 830px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 540px;
 }
 
 .feature-item {
-  max-width: 300px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
 
+.feature-item img {
+  width: 72px;
+  height: 72px;
 }
 
 .feature-item h3 {
-  margin: 24px 0 12px;
+  margin: 0 0 8px;
   color: #F67E7E;
   font-size: 18px;
+}
+
+.feature-item p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.8;
+  color: white;
 }
 
 /* TESTIMONIALS */
