@@ -250,6 +250,8 @@ header {
 .testimonial {
   max-width: 350px;
   text-align: center;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .testimonial img {
