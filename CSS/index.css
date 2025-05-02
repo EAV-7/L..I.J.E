@@ -67,11 +67,16 @@ header {
   line-height: 28px;
  }
 
+.main-nav a:hover {
+  color: #F67E7E;
+}
+
 .btn-outline {
   border: 2px solid white;
   padding: 11px 33px;
   border-radius: 24px;
   font-weight: 600;
+  transition: background 0.3s ease;
 }
 
 .btn-outline:hover {
@@ -303,6 +308,7 @@ cite {
   text-align: center;
   line-height: 45px;
   margin-top: 76px;
+  transition: background 0.3s ease;
 }
 .btn-filled:hover {
   background-color: #012F34;
@@ -325,6 +331,10 @@ footer {
 .footer-left nav a {
   display: block;
   margin: 8px 0;
+}
+
+.footer-left nav a:hover {
+  color: #F67E7E;
 }
 
 .footer-middle {
