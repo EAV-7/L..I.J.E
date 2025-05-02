@@ -157,7 +157,7 @@ header {
 /* FEATURES */
 .features {
   background-color: #012F34;
-  padding: 140px 0;
+  padding: 100px 0;
   position: relative;
 }
 
@@ -202,26 +202,34 @@ header {
 .feature-item img {
   width: 72px;
   height: 72px;
+  margin: auto;
+  position: relative;
+  top: 150px;
 }
 
 .feature-item h3 {
-  margin: 0 0 8px;
+margin: auto;
+position: relative;
   color: #F67E7E;
   font-size: 18px;
+  top: 150px;
+  
 }
 
 .feature-item p {
-  margin: 0;
+  margin: auto;
+  position: relative;
   font-size: 15px;
   line-height: 25px;
   opacity: 0.8;
   color: white;
+  top: 150px;
 }
 
 /* TESTIMONIALS */
 .testimonials {
   background-color: #004047;
-  height: 745px;
+  height: 735px;
   display: block;
   text-align: center;
   align-items: center;
@@ -343,4 +351,28 @@ footer {
 .nav1{
   display: flex;
   gap: 40px;
+}
+/* IMG */
+.img1{
+position: relative;
+margin: auto;
+left: 450px;
+top: 150px;
+}
+.img2{
+position: relative;
+margin: auto;
+left: 750px;
+top: 150px;
+}
+
+.img3{
+  position: relative;
+  margin: auto;
+  right: 150px;
+  top:120px ;  
+}
+
+.img4{
+
 }
