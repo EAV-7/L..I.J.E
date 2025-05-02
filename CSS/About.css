@@ -182,8 +182,61 @@ body {
     color: #fff;
     opacity: 0.6;
   }
-  /* NAV */
+ 
   .nav1{
     display: flex;
     gap: 40px;
   }
+
+  .we-help-companies-bu,
+.we-help-companies-bu * {
+    box-sizing: border-box;
+}
+
+.we-help-companies-bu {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Livvic-SemiBold', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    position: relative;
+}
+
+.about,
+.about * {
+    box-sizing: border-box;
+}
+
+.about {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Livvic-Bold', sans-serif;
+    font-size: 64px;
+    line-height: 100px;
+    font-weight: 700;
+    position: relative;
+}
+
+.rectangle,
+.rectangle * {
+    box-sizing: border-box;
+}
+
+.rectangle {
+    background: #f67e7e;
+    width: 50px;
+    height: 4px;
+    position: relative;
+}
+
+.group-8,
+.group-8 * {
+    box-sizing: border-box;
+}
+
+.group-8 {
+    height: auto;
+    position: relative;
+    overflow: visible;
+}
