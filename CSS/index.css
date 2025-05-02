@@ -72,6 +72,7 @@ header {
   padding: 11px 33px;
   border-radius: 24px;
   font-weight: 600;
+  transition: background 0.3s ease;
 }
 
 .btn-outline:hover {
@@ -295,6 +296,7 @@ cite {
   text-align: center;
   line-height: 45px;
   margin-top: 76px;
+  transition: background 0.3s ease;
 }
 .btn-filled:hover {
   background-color: #012F34;
