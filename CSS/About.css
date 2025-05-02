@@ -67,6 +67,10 @@ body {
     line-height: 28px;
    }
   
+   .main-nav a:hover {
+    color: #F67E7E;
+  }
+  
   .btn-outline {
     border: 2px solid white;
     padding: 11px 33px;
@@ -162,6 +166,10 @@ body {
   .footer-left nav a {
     display: block;
     margin: 8px 0;
+  }
+
+  .footer-left nav a:hover {
+    color: #F67E7E;
   }
   
   .footer-middle {
