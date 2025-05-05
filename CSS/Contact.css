@@ -172,10 +172,18 @@ body {
     resize: vertical;
   }
    
+  .contact-form input:hover,
+  .contact-form textarea:hover,
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+  border-color: #b9bbc4;
+}
+
   .contact-form input::placeholder,
   .contact-form textarea::placeholder {
     color: rgba(255, 255, 255, 0.6);
   }
+
 /* javascript dalykas */
   .error-message {
     color: #F67E7E;
@@ -272,7 +280,7 @@ body {
     right: 100px;
     gap: 30px;
   }
-  
+
   .contact-left h1 {
     font-size: 48px;
     text-align: center;
