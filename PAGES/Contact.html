@@ -16,7 +16,7 @@
       <nav class="main-nav">
         <ul>
           <li><a href="../index.html">Home</a></li>
-          <li></li><a href="About.html">About</a></li>
+          <li><a href="About.html">About</a></li>
         </ul>
       </nav>
       <a href="Contact.html" class="btn-outline">Contact Us</a>
@@ -45,11 +45,11 @@
 		</ul>
 	  </div>
 	  <div class="contact-right">
-		<form class="contact-form" action="#" method="POST">
-		  <input type="text" name="name" placeholder="Name" required />
-		  <input type="email" name="email" placeholder="Email Address" required />
-		  <input type="text" name="company" placeholder="Company Name" />
-		  <input type="text" name="title" placeholder="Title" />
+		<form class="contact-form" action="#" method="POST" novalidate>
+		  <input type="text" name="name" placeholder="Name" required/>
+		  <input type="email" name="email" placeholder="Email Address" required/>
+		  <input type="text" name="company" placeholder="Company Name" required/>
+		  <input type="text" name="title" placeholder="Title" required/>
 		  <textarea name="message" placeholder="Message" rows="4" required></textarea>
 		  <button type="submit" class="btn-submit">submit</button>
 		</form>
@@ -80,6 +80,8 @@
 	</div>
 </footer>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../JS/contact.js"></script>
 </body>
 </html>
 	
