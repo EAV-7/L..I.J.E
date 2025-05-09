@@ -46,16 +46,21 @@ header {
 }
 
 .logo {
-  height: 24px;
+  height: 42px;
+  right: 26px;
+  position: relative;
+  top: 13px;
 }
 
 .main-nav ul {
+ margin: auto;
  position: relative;
  list-style: none;
  display: flex;
- right: 200px;
- top: 5px;
- gap: 40px;
+ left: 21px;
+ top: 15px;
+ gap: 23px;
+ font-size: 18px;
 }
 
 .main-nav a {
@@ -77,6 +82,10 @@ header {
   border-radius: 24px;
   font-weight: 600;
   transition: background 0.3s ease;
+  position: relative;
+  margin: auto;
+  left: 335px;
+  top: 15px;
 }
 
 .btn-outline:hover {
@@ -107,7 +116,7 @@ header {
 /* HERO */
 .hero {
   background-color: #014E56;
-  padding: 120px 0 150px;
+  height: 536px;
   position: relative;
 }
 
@@ -122,8 +131,11 @@ header {
 }
 
 .hero-content {
-  flex: 1 1 50%;
-  max-width: 600px;
+ max-width: 600px;
+margin: auto;
+position: relative;
+top: 75px;
+left: 9px;
 }
 
 .hero-text {
@@ -132,7 +144,7 @@ header {
 }
 
 .hero h1 {
-  font-size: 100px;
+  font-size: 105px;
   font-weight: 700;
   line-height: 100px;
   margin: 0;
@@ -144,18 +156,34 @@ header {
 
 .hero p {
   font-family: Livvic;
-  font-size: 18px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
+  position: relative;
+  margin: auto;
+  top: 162px;
+  max-width: 500px;
+  left: 24px;
 }
+hr{
+  width: 52px;
+  position: relative;
+  margin: auto;
+  left: 88px;
+  bottom: 26px;
+  height: 4px;
+  background: #79C8C7;
+  border: none;
 
+}
 .hero-decor {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 1px;
+  top: 71px;
   max-width: 350px;
   height: auto;
+  width: 105px;
 }
 
 
@@ -366,21 +394,22 @@ footer {
 .img1{
 position: relative;
 margin: auto;
-left: 450px;
-top: 150px;
+left: 425px;
+top: 240px;
+width: 243px;
 }
 .img2{
 position: relative;
 margin: auto;
-left: 750px;
-top: 150px;
+left: 710px;
+top: 235px;
 }
 
 .img3{
   position: relative;
   margin: auto;
-  right: 150px;
-  top:120px ;  
+  right: 170px;
+  top:211px ;  
 }
 
 .img4{
