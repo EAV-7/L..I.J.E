@@ -190,7 +190,7 @@ hr{
 /* FEATURES */
 .features {
   background-color: #012F34;
-  padding: 100px 0;
+  padding: 64px 0;
   position: relative;
 }
 
@@ -203,10 +203,13 @@ hr{
 
 .features h2 {
   width: 445px;
-  font-size: 48px;
-  line-height: 56px;
-  margin: 0;
+  font-size: 50px;
+  line-height: 50px;
+  margin: auto;
   position: relative;
+  top: 28px;
+  right: 88px;
+  word-spacing: 2px;
 }
 
 /* Raudonas brūkšnelis virš h2 */
@@ -216,36 +219,38 @@ hr{
   width: 50px;
   height: 4px;
   background-color: #F67E7E;
-  margin-bottom: 32px;
+  margin-bottom: 60px;
 }
 
 .feature-grid {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 55px;
   max-width: 540px;
 }
 
 .feature-item {
   display: flex;
   align-items: flex-start;
-  gap: 24px;
+  gap: 30px;
 }
 
 .feature-item img {
-  width: 72px;
-  height: 72px;
+  width: 75px;
+  height: 75px;
   margin: auto;
   position: relative;
-  top: 150px;
+  top: 158px;
+  left: 9px;
 }
 
 .feature-item h3 {
 margin: auto;
 position: relative;
   color: #F67E7E;
-  font-size: 18px;
-  top: 150px;
+  font-size: 19px;
+  top: 158px;
+  left: 4px;
   
 }
 
@@ -256,7 +261,9 @@ position: relative;
   line-height: 25px;
   opacity: 0.8;
   color: white;
-  top: 150px;
+  top: 179px;
+  left: 5px;
+  word-spacing: 1.9px;
 }
 
 /* TESTIMONIALS */
@@ -413,5 +420,9 @@ top: 235px;
 }
 
 .img4{
-
+margin: auto;
+position: relative;
+left: 1420px;
+top: 65px;
+width: 105px;
 }
