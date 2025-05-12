@@ -104,6 +104,19 @@ body {
     font-weight: 600;
   }
 
+/* DIRECTORSS */
+.directors {
+  background-color: #004047;
+  padding: 140px 0;
+  position: relative;
+}
+
+.directors {
+  text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+}
+
 
 /* CLIENTS */
 .clients {
