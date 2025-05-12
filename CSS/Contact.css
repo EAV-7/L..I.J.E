@@ -294,27 +294,29 @@ body {
 
 
 /* burger nom nom */
-/* Hamburger icon */
+/* Hamburger styles */
 .hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
   position: fixed;
   top: 20px;
   right: 20px;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
   z-index: 1100;
-  display: none;
 }
 
+/* Mobile menu container */
 .mobile-menu {
-  transform: translateX(100%); /* hide offscreen */
-  transition: transform 0.3s ease-in-out;
   position: fixed;
   top: 0;
   right: 0;
   width: 50%;
   height: 100%;
   background-color: #002529;
+  color: white;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -332,23 +334,10 @@ body {
   top: 20px;
   right: 20px;
   cursor: pointer;
+  z-index: 1200;
 }
 
-.mobile-menu ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 60px;
-}
-
-.mobile-menu li {
-  margin: 20px 0;
-}
-
-.mobile-menu a {
-  color: white;
-  text-decoration: none;
-}
-
+/* Contact button in mobile menu */
 .mobile-contact-btn {
   display: inline-block;
   margin-top: 30px;
