@@ -301,7 +301,7 @@ body {
   cursor: pointer;
   color: white;
   z-index: 1100;
-  position: fixed; /* change from absolute */
+  position: fixed;
   top: 20px;
   right: 20px;
 }
@@ -319,7 +319,7 @@ body {
   color: white;
   padding: 40px 20px;
   transition: transform 0.3s ease-in-out;
-  z-index: 1000; /* Sit above other elements */
+  z-index: 1000;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -377,14 +377,17 @@ body {
   border-radius: 24px;
   font-weight: 600;
   color: white;
+  background: transparent;
   text-align: center;
   transition: background 0.3s ease;
+  text-decoration: none;
 }
 
 .mobile-contact-btn:hover {
   background-color: white;
   color: #014E56;
 }
+
 
 
 
