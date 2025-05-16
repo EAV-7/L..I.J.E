@@ -48,16 +48,21 @@ body {
   }
   
   .logo {
-    height: 24px;
+    height: 42px;
+    right: 26px;
+    position: relative;
+    top: 13px;
   }
   
   .main-nav ul {
+   margin: auto;
    position: relative;
    list-style: none;
    display: flex;
-   right: 200px;
-   top: 5px;
-   gap: 40px;
+   left: 21px;
+   top: 15px;
+   gap: 45px;
+   font-size: 18px;
   }
   
   .main-nav a {
@@ -69,16 +74,20 @@ body {
     line-height: 28px;
    }
   
-   .main-nav a:hover {
+  .main-nav a:hover {
     color: #F67E7E;
   }
-
+  
   .btn-outline {
     border: 2px solid white;
     padding: 11px 33px;
     border-radius: 24px;
     font-weight: 600;
     transition: background 0.3s ease;
+    position: relative;
+    margin: auto;
+    left: 340px;
+    top: 12px;
   }
   
   .btn-outline:hover {
@@ -105,7 +114,7 @@ body {
     line-height: 28px;
     font-weight: 600;
   }
-
+  
 /* CONTACTS */
   .contact-container {
     display: flex;
@@ -113,12 +122,14 @@ body {
     gap: 4rem;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 0px;
   }
    
   .contact-left {
     flex: 1;
     min-width: 280px;
-    margin-top: -65px;
+    margin-top: 20px;
+    margin-left: -20px;
   }
    
   .contact-left h1 {
@@ -134,7 +145,7 @@ body {
    
   .contact-reasons {
     padding: 0;
-    margin-top: 2rem;
+    margin-top: 50px;
     margin-bottom: 142px;
     font-size: 18px;
   }
@@ -142,24 +153,26 @@ body {
   .contact-reasons li {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 30px;
     margin-bottom: 0.75rem;
   }
    
   .contact-reasons img {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
   }
    
   .contact-right {
     flex: 1;
     min-width: 280px;
+    margin-top: 55px;
+    margin-right: -10px;
   }
    
   .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 35px;
   }
    
   .contact-form input,
@@ -204,6 +217,8 @@ body {
     font-weight: 700;
     cursor: pointer;
     transition: background 0.3s ease;
+    width: 120px;
+    height: 45px;
   }
    
   .btn-submit:hover {
@@ -214,7 +229,7 @@ body {
   .contact-decor {
     position: absolute;
     left: 0;
-    top: 180px;
+    top: 255px;
     max-width: 350px;
     height: auto;
   }
@@ -222,7 +237,7 @@ body {
   .contact2-decor {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -100px;
     max-width: 350px;
     height: auto;
   }
@@ -234,6 +249,8 @@ body {
   }
   
   .footer-container {
+    margin-top: 0px;
+    margin-left: 150px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -276,21 +293,111 @@ body {
   }
 
 
-/* ====== TABLET: 1024px and below ====== */
+/* burger nom nom */
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  z-index: 1100;
+  display: none;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #2C6269;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+.close-btn {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 60px;
+}
+
+.mobile-menu li {
+  margin: 20px 0;
+}
+
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.mobile-contact-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 11px 33px;
+  border: 2px solid white;
+  border-radius: 24px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.mobile-contact-btn:hover {
+  background-color: white;
+  color: #014E56;
+}
+
+
+
+
+/* tablet */
 @media (max-width: 1024px) {
   .main-nav ul {
     right: 100px;
     gap: 30px;
   }
 
-  .contact-left h1 {
+  .contact-container {
+    align-items: center;
+    gap: 0px;
+    flex-direction: column;
+  }
+
+  .contact-left h1,h2 {
     font-size: 48px;
     text-align: center;
+    align-items: center;
   }
 
   .contact-left .highlight {
     font-size: 28px;
     text-align: center;
+    align-items: center;
+  }
+
+  .contact-reasons {
+    font-size: 18px;
+    width: 600px;
+    height: auto;
   }
 
   .contact-reasons img {
@@ -298,9 +405,10 @@ body {
     height: 50px;
   }
 
-  .contact-container {
-    gap: 2rem;
-    flex-direction: column;
+  .contact-form {
+    width: 600px;
+    height: 500px;
+    margin-top: -100px;
   }
 
   .contact-decor,
@@ -308,11 +416,23 @@ body {
     max-width: 200px;
   }
 
+  .contact2-decor {
+    bottom: -420px;
+  }
+
   .footer-container {
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 2rem;
     text-align: center;
+  }
+
+  .footer-left {
+    align-items: left;
+  }
+
+  .footer-middle {
+    align-items: right;
   }
 
   .nav1 {
@@ -325,12 +445,11 @@ body {
   }
 }
 
-/* ====== MOBILE: 767px and below ====== */
+/* mobile */
 @media (max-width: 767px) {
   .header-container {
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
   }
 
   .main-nav ul,
@@ -338,6 +457,9 @@ body {
     display: none;
   }
 
+  .contact-container{
+    align-items: center;
+  }
   .contact-left h1 {
     font-size: 40px;
     text-align: center;
@@ -359,7 +481,8 @@ body {
   }
 
   .contact-form {
-    width: 100%;
+    width: 600px;
+    margin-bottom: 0px;
   }
 
   .contact-decor {
@@ -368,20 +491,32 @@ body {
 
   .contact2-decor {
     right: 0;
-    bottom: 0;
+    bottom: -480px;
   }
 
-  .footer-left nav a {
-    margin: 4px 0;
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
   }
 
   .nav1 {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
+    gap: 24px;
+    justify-content: center;
   }
 
-  .footer-middle {
-    font-size: 14px;
+  .footer-right {
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .main-nav ul,
+  .btn-outline {
+    display: none;
   }
 }
