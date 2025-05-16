@@ -20,7 +20,6 @@ a {
 .container2 {
   max-width: 1110px;
   margin: 0 auto;
-  padding: 3px 24px;
   display: flex;
   gap: 260px;
 }
@@ -31,7 +30,9 @@ a {
   justify-content: center;
   align-items: center;
   position: relative;
-
+  line-height: 58px;
+  width: 1100px;
+  font-style: 'Livic';
 }
 
 /* HEADER */
@@ -269,7 +270,7 @@ position: relative;
 /* TESTIMONIALS */
 .testimonials {
   background-color: #004047;
-  height: 735px;
+  height: 789px;
   display: block;
   text-align: center;
   align-items: center;
@@ -278,11 +279,11 @@ position: relative;
 
 .testimonials h2 {
   font-size: 48px;
-  line-height: 56px;
   width: 85%;
-  margin-bottom: 90px;
   text-align: center;
-
+  position: relative;
+  margin: auto;
+  top: 138px;
 }
 
 .testimonials .highlight {
@@ -291,40 +292,76 @@ position: relative;
 
 .testimonial-grid {
   display: flex;
-  justify-content: space-between;
-  gap: 30px;
+  width: 1400px;
 }
 
 .testimonial {
-  max-width: 350px;
+max-width: 600px;
+width: 100%;
   text-align: center;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 17px;
+  position: relative;
+  margin:auto;
+  top: 190px;
+  right:150px ;
 }
 
 .testimonial img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  margin-bottom: 24px;
+  margin: auto;
+  position: relative;
+  top: 70px;
+  right: 15px;
 }
 
 blockquote p {
-  font-style: italic;
+  position: relative;
+  margin: auto;
+  top: 25px;
 }
 
 cite {
-  font-style: normal;
   color: #79C8C7;
+  margin: auto;
+  position: relative;
+  top: 60px;
 }
-
+.cite1{
+  font-style: italic;
+  margin: auto;
+  position: relative;
+  top: 60px;
+}
+.kabutes{
+  margin: auto;
+  display: flex;
+  position: relative;
+  gap: 410px;
+  bottom: 60px;
+  justify-content: center;
+  bottom: 155px;
+  opacity: 20%;
+}
+.jo{
+  margin: auto;
+  position: relative;
+  right: 682px;
+  bottom: 375px;
+}
 /* CTA */
 .cta {
   background-color: #F67E7E;
   color: #012F34;
   height: 200px;
   display: flex;
-
+}
+.oval{
+  margin: auto;
+  position: relative;
+  top: 150px;
+  left: 656px;
 }
 
 .cta h2 {
@@ -333,7 +370,7 @@ cite {
 }
 
 .btn-filled {
-  padding: 5px 33px;
+  padding: 0px 18px;
   background-color: transparent;
   border: 2px solid #012F34;
   border-radius: 28px;
@@ -344,6 +381,7 @@ cite {
   line-height: 45px;
   margin-top: 76px;
   transition: background 0.3s ease;
+  margin-left: 51px;
 }
 .btn-filled:hover {
   background-color: #012F34;

@@ -132,19 +132,7 @@ body {
     margin-top: 70px;
   }
   
-  .btn-filled {
-    padding: 5px 33px;
-    background-color: transparent;
-    border: 2px solid #012F34;
-    border-radius: 28px;
-    width: 133px;
-    height: 48px;
-    color: #012F34;
-    text-align: center;
-    line-height: 45px;
-    margin-top: 76px;
-    transition: background 0.3s ease;
-  }
+  
   .btn-filled:hover {
     background-color: #012F34;
     color: white;
