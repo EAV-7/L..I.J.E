@@ -104,17 +104,120 @@ body {
     font-weight: 600;
   }
 
-/* DIRECTORSS */
+/* DIRECTORS SECTION */
 .directors {
   background-color: #004047;
   padding: 140px 0;
   position: relative;
+  text-align: center;
 }
 
-.directors {
+.directors h2 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.directors-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #012f34;
+  padding: 30px 20px;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.plus-btn {
+  margin-top: 15px;
+  background-color: #f67e7e;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+/*po mygtuko */
+.quote-card {
+  background-color: #012f34;
   text-align: center;
-  font-size: 48px;
-  line-height: 48px;
+  padding: 30px;
+}
+
+.quote-card p {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 16px;
+  height: 16px;
+}
+
+.card .card-back,
+.card .card-front {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #012f34;
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
+.card.toggle-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.close-btn {
+  background-color: #79c8c7;
 }
 
 
