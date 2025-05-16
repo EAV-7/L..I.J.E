@@ -369,7 +369,7 @@ body {
 
 
 
-/* ====== TABLET: 1024px and below ====== */
+/* tablet */
 @media (max-width: 1024px) {
   .main-nav ul {
     right: 100px;
@@ -445,7 +445,7 @@ body {
   }
 }
 
-/* ====== MOBILE: 767px and below ====== */
+/* mobile */
 @media (max-width: 767px) {
   .header-container {
     flex-direction: column;
